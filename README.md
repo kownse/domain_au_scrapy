@@ -32,3 +32,6 @@ The followed crawling will take **only 1 hour** since no need to crawl every det
 ## For what
  - This project is helpful to providing real estate market informations in Sydney for house seekers.
  - it is good data source for data science studying.
+## Analysis
+ - A summay analyze based on this work can be [visited here](https://kownse.github.io/sydneyhouse)
+ - For more detailed analysis results, please contact me by [email](mailto:kownse@gmail.com).
