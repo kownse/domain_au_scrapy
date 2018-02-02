@@ -37,4 +37,5 @@ The followed crawling will take **only 1 hour** since no need to crawl every det
  
 ## Analysis
  - A summary analysis based on this work can be [visited here](https://kownse.github.io/sydneyhouse)
+   ![Analysis](https://kownse.github.io/img/sydney_house.png "screenshot of price analysis grouped by areas")
  - For more detailed analysis results, please contact me by [email](mailto:kownse@gmail.com).
