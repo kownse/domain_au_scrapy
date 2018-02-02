@@ -1,4 +1,6 @@
 # domain_au_scrapy
+
+## What is this
 Crawl domain.com.au everyday using scrapy + mongodb + schedule.
  1. It is based on scrapy framework.
  2. It uses mongodb as database.
@@ -6,7 +8,7 @@ Crawl domain.com.au everyday using scrapy + mongodb + schedule.
  4. It has been configed friendly to web server since 1 request per second.
  5. It is written in python 3.x.
 
-## Get Start
+## Get Started
  To get started, you need:
  1. A running mongod service on your local(127.0.0.1)
  2. Change the username and password in /domain/MongoCache.py to fit your own case.
@@ -32,6 +34,7 @@ The followed crawling will take **only 1 hour** since no need to crawl every det
 ## For what
  - This project is helpful to providing real estate market informations in Sydney for house seekers.
  - it is good data source for data science studying.
+ 
 ## Analysis
- - A summay analyze based on this work can be [visited here](https://kownse.github.io/sydneyhouse)
+ - A summary analysis based on this work can be [visited here](https://kownse.github.io/sydneyhouse)
  - For more detailed analysis results, please contact me by [email](mailto:kownse@gmail.com).
