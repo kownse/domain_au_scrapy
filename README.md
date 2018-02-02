@@ -7,16 +7,20 @@ Crawl domain.com.au everyday using scrapy + mongodb + schedule.
  5. It is written in python 3.x.
 
 ## Get Start
- For one time crawling, just run: 
- ```shell
- python3 runner.py
- ```
- For scheduled crawling:
- open scheduler.py, scroll to the bottom, change parameters in the call to timing_crawl
- ```python
- if __name__ == "__main__":
-    timing_crawl(hour, min)
- ```
+ To get started, you need:
+ 1. A running mongod service on your local(127.0.0.1)
+ 2. Change the username and password in /domain/MongoCache.py to fit your own case.
+ 3. 
+  For one time crawling, just run: 
+  ```shell
+  python3 runner.py
+  ```
+  For scheduled crawling:
+  open scheduler.py, scroll to the bottom, change parameters in the call to timing_crawl
+  ```python
+  if __name__ == "__main__":
+     timing_crawl(hour, min)
+  ```
 
 ## About timing
 The first crawling takes up **6 hours** since there are average 15000+ house on sell on domain.com.au.
